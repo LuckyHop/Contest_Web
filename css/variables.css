@@ -1,0 +1,28 @@
+/* Основные цвета для тёмной темы */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --background-color: #1a1a2e;
+    --surface-color: #16213e;
+    --text-primary: #ffffff;
+    --text-secondary: #bdc3c7;
+    --border-color: #34495e;
+    /* Размеры */
+    --container-width: 1200px;
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+    /* Тени */
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+/* Светлая тема */
+.light-theme {
+    --background-color: #ffffff;
+    --surface-color: #f8f9fa;
+    --text-primary: #2c3e50;
+    --text-secondary: #7f8c8d;
+    --border-color: #dfe6e9;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
